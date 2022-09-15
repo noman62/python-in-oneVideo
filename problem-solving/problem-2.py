@@ -1,8 +1,10 @@
-a,b= map(int,input().split())
 
-if((b-a)==1):
-    print("Yes")
-elif((b-a)==9):
-    print("Yes")
-else:
-    print("No")
+arr=[]
+rows, cols=5,5
+for i in range(rows):
+    col = []
+    for j in range(cols):
+        a=7
+        col.append(a)
+    arr.append(col)
+print(arr)
