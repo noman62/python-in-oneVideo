@@ -1,1 +1,2 @@
-
+a=getChar()
+print(a)
